@@ -1,34 +1,41 @@
 🥗 NutriTracker - Nutrition & Diet Tracking Application
 A comprehensive, colorful web application for tracking nutrition, managing diet plans, and achieving fitness goals using Python, Flask, and SQLite.
 
-🌟 Features
-Module 1: Login System
+###🌟 Features
+
+###Module 1: Login System
 User Sign Up - Create new account with email validation
 User Login - Secure authentication
 Profile Management - Update personal information
-Module 2: Health Assessment
+
+###Module 2: Health Assessment
 Enter Health Details - Age, weight, height, gender, activity level
 BMI Calculation - Automatic BMI computation
 Calorie Requirement Analysis - Harris-Benedict equation for personalized calorie goals
-Module 3: AI Diet Recommendation
+
+###Module 3: AI Diet Recommendation
 AI Analyzes User Data - Based on health profile and goals
 Personalized Diet Plans - Customized recommendations
 Meal Recommendations - Healthy food suggestions
-Module 4: Meal Tracking
+
+###Module 4: Meal Tracking
 Breakfast Tracking - Log morning meals
 Lunch Tracking - Log midday meals
 Dinner Tracking - Log evening meals
 Snack Tracking - Log snacks and extras
-Module 5: Nutrition Monitoring
+
+###Module 5: Nutrition Monitoring
 Calorie Tracking - Daily calorie consumption
 Protein Tracking - Protein intake monitoring
 Carbohydrate Tracking - Carbs monitoring
 Water Intake Tracking - Daily water consumption
-Module 6: Progress Dashboard
+
+###Module 6: Progress Dashboard
 Reports & Analytics - Detailed nutrition analysis
 Goal Tracking - Weight loss/gain goals
 Weekly Progress Monitoring - 7-day nutrition history
-🎨 Design
+
+###🎨 Design
 Colorful Food Theme with vibrant colors for different food categories
 Responsive design for mobile, tablet, and desktop
 Smooth animations and transitions
@@ -40,7 +47,8 @@ Color Palette
 🥦 Broccoli Green (#06A77D)
 🫐 Blueberry Blue (#4361EE)
 🍆 Eggplant Purple (#7209B7)
-🚀 Installation
+
+###🚀 Installation
 Prerequisites
 Python 3.8+
 pip (Python package installer)
@@ -65,6 +73,7 @@ Access the application
 
 Open your browser and go to: http://localhost:5000
 Default credentials can be created by signing up
+```text
 📁 Project Structure
 food/
 ├── app/
@@ -89,6 +98,7 @@ food/
 ├── run.py                        # Application entry point
 ├── requirements.txt              # Python dependencies
 └── README.md                     # This file
+```
 💾 Database Schema
 Tables
 users - User accounts and health information
